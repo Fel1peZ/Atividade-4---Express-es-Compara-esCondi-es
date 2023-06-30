@@ -1,0 +1,33 @@
+programa
+{
+	
+inteiro a
+	inteiro b
+	inteiro c
+
+	funcao inicio()
+	{
+		escreva("me diga um numero \n")
+		leia(a)
+		escreva("me diga um numero\n")
+          leia(b)
+          escreva("me diga um numero\n")
+		leia(c)
+
+		se(a > b e b > c)
+		escreva(a ,b, c)
+		se(a > b e c > b)
+		escreva(a ,c, b)
+		se(b > a e a > c)
+		escreva(b ,a , c)
+		se(b > c e c > a)
+		escreva(b ,c, a)
+		se(c > b e b > a)
+		escreva(c ,b, a)
+		se(c > a e a > b)
+		escreva(c ,a, b)
+
+
+
+	}
+}
