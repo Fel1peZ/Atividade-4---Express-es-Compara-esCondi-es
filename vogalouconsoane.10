@@ -1,0 +1,16 @@
+programa
+{
+	
+cadeia c
+	funcao inicio()
+	{
+		escreva("me diga um caracter e te direi se é vogal ou consoante \n")
+		leia(c)
+
+		se(c == "a" ou c == "e" ou c == "i" ou c == "o" ou c == "u")
+		escreva("é vogal")
+
+		senao
+		escreva("é consoante")
+	}
+}
