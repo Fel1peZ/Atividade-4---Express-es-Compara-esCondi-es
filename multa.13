@@ -1,0 +1,17 @@
+programa
+{
+	
+inteiro km
+	funcao inicio()
+	{
+		escreva("me diga o km  do que o carrou passou\n")
+		leia(km)
+		
+			se(km > 80){
+			escreva("voce foi multado e terá que pagar " ,(km - 80) * 7," reais")
+			}
+			senao
+			escreva("voce esta na lei")
+		
+	}
+}
