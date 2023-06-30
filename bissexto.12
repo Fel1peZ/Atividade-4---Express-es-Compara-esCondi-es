@@ -1,1 +1,32 @@
+programa
+{
+	
+inteiro ano
+	funcao inicio()
+	{
+		escreva("me diga um ano para ver se é bissexto \n")
+		leia(ano)
+
+			se(ano <= 0){
+			ano = 2023
+			}
+
+			se(ano % 4 == 0){
+			  	se(ano % 100 == 0){
+			  		se(ano % 400 == 0){
+			  		escreva("ano é bissexto")	
+			  		}
+			  		senao
+			  		escreva("Não é bissexto")
+			  			
+			  	}
+			  	senao
+			  	escreva("ano é bissexto")
+			  	
+			}
+               senao
+			  	escreva("Não é bissexto")
+		
+	}
+}
 
